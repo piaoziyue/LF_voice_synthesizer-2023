@@ -14,8 +14,8 @@ level = 'high';
 
 % For reference, LF_params for different phonation types:
 %===mid level===
-%modal [1 0.01 1.17 0.34];
 %breathy [1.08 0.025 0.88 0.41];
+%modal [1 0.01 1.17 0.34];
 %pressed [1.23 0.008 1.13 0.2];
 
 %===high level===

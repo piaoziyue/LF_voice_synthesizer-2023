@@ -54,7 +54,7 @@ switch phonation
     case 'b'
         if level == 'high'
             EE = 10^(0.7/20);
-            Rd = 2.5;
+            Rd = 1.5;
             Ra = (-1+4.8*Rd)/100;
             Rk = (22.4+11.8*Rd)/100;
             Rg = (Rk*(0.5+1.2*Rk))/(0.44*Rd-4*Ra*(0.5+1.2*Rk));

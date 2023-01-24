@@ -2,10 +2,6 @@ function [ U, u ] = lf( EE, Ra, Rg, Rk, f0, fs )
 %LF Synthesizes one LF glottal flow and glottal flow derivative pulse using given parameters
 %   Detailed explanation goes here
 
-%EE=1;Ra=0.01;Rg=1.17;Rk=0.34;f0=100; % Modal
-%EE=10^(0.7/20);Ra=0.025;Rg=0.88;Rk=0.41;f0=100; % Breathy
-
-
 
 fsH = 48000;
 

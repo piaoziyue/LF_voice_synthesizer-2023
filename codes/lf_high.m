@@ -5,8 +5,6 @@ function [ U, u ] = lf_high( EE, Rd, f0, fs )
 %EE=1;Ra=0.01;Rg=1.17;Rk=0.34;f0=100; % Modal
 %EE=10^(0.7/20);Ra=0.025;Rg=0.88;Rk=0.41;f0=100; % Breathy
 
-
-
 fsH = 48000;
 
 Ra = (-1+4.8*Rd)/100;
